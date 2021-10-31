@@ -205,14 +205,14 @@ $(function() {
                                                                             <div class="input-group-prepend">
                                                                                 <span class="input-group-text" id="basic-addon1">$</span>
                                                                             </div>
-                                                                            <input id="InputNewTotalCard${creditCardSelected}" type="number" class="form-control" placeholder="Enter your new expense" aria-label="Enter your new expense" aria-describedby="basic-addon2">
+                                                                            <input id="InputNewTotalCard${creditCardSelected}" type="number" class="form-control" placeholder="Enter your new total expended" aria-label="Enter your new total expended" aria-describedby="basic-addon2">
                                                                             <div class="input-group-append">
                                                                                 <button id="btnAddNewTotalCard${creditCardSelected}" class="btn btn-outline-secondary" type="submit">Enter</button>
                                                                             </div>
                                                                         </form>`);
             //Due date
             $("#" + "dueDateCard" + `${creditCardSelected}`).html(`<form class="d-flex m-2">
-                                                                            <input id="inputAddNewDueDate${creditCardSelected}" type="date" class="form-control" placeholder="Enter your new due date" aria-label="Enter your new expense" aria-describedby="basic-addon2">
+                                                                            <input id="inputAddNewDueDate${creditCardSelected}" type="date" class="form-control" placeholder="Enter your new due date" aria-label="Enter your new due date" aria-describedby="basic-addon2">
                                                                             <div class="input-group-append">
                                                                                 <button id="btnAddNewDueDate${creditCardSelected}" class="btn btn-outline-secondary" type="submit">Enter</button>
                                                                             </div>
